@@ -1,0 +1,29 @@
+{
+  "name": "style",
+  "version": "0.0.1",
+  "description": "Shared styles between Bram Smulders shit",
+  "main": "lib/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramsmulders/style.git"
+  },
+  "keywords": [
+    "Styles",
+    "bram",
+    "smulders",
+    "shit"
+  ],
+  "author": "Bram Smulders <bram@bramsmulders.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bramsmulders/style/issues"
+  },
+  "homepage": "https://github.com/bramsmulders/style#readme",
+  "dependencies": {
+    "stylelint": "^8.4.0",
+    "stylelint-config-supple": "^1.0.0"
+  }
+}
