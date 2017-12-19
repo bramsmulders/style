@@ -1,2 +1,2 @@
 # style
-Shared styles between my shit
+Shared styles between my 💩
