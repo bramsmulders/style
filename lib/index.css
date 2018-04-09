@@ -1,103 +1,17 @@
-/*  =========================================================================
-    index.css
-    Defines styles for cross project sharing
-    ========================================================================= */
+/*! bramsmulders.style */
 
 /*  Settings
+    Global variables, config switches
     ========================================================================= */
 
-:root {
-  --style-family--serif: Arvo, serif;
-  --style-family--sans-serif: Oswald, sans-serif;
-
-  /**
-    * Colors
-    */
-  --style-color--brand: #dc143c;
-  --style-color--black: #000000;
-  --style-color--gray-a: #3e4147;
-  --style-color--gray-b: #707070;
-  --style-color--gray-c: #949494;
-  --style-color--gray-d: #d3d3d3;
-  --style-color--gray-e: #f4f4f4;
-  --style-color--white: #ffffff;
-}
-
-
-
-/*  Tools
-    ========================================================================= */
-
-/* I ain’t got none */
-
-
-
-/*  Generic
-    ========================================================================= */
+@import "settings/vars.css";
 
 
 
 /*  Elements
+    Unclassed HTML elements (type selectors)
     ========================================================================= */
 
-/**
- * Toplevel
- */
-html {
-  font-family: var(--style-family--serif);
-}
-
-
-/**
- * Links
- */
-a {
-  font-weight: 700;
-  text-decoration: none;
-  color: var(--style-color--gray-a);
-  text-decoration: underline;
-  text-decoration-skip: ink;
-  text-decoration-color: var(--style-color--brand);
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: var(--style-color--brand);
-}
-
-
-/**
- * Headings
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: block;
-  font-family: var(--style-family--sans-serif);
-  line-height: 1.14;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #dc143c;
-  color: var(--style-color--brand);
-}
-
-
-
-/*  Objects
-    ========================================================================= */
-
-
-
-/*  Components
-    ========================================================================= */
-
-/* Add your own, yo */
-
-
-
-/*  Utilities
-    ========================================================================= */
+@import "elements/toplevel.css";
+@import "elements/typography.css";
+@import "elements/links.css";
