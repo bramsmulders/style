@@ -7,8 +7,8 @@
     Maps the sass viarables to custom properties
     ========================================================================= */
 :root {
-  --bs-family--body: Crimson Text, serif;
-  --bs-family--leader: Ubuntu, sans-serif;
+  --bs-family--body: 'Crimson Text', serif;
+  --bs-family--leader: 'Ubuntu', sans-serif;
   /**
    * Colors
    */
