@@ -4,14 +4,14 @@
     Global variables, config switches
     ========================================================================= */
 
-@import "settings/vars.css";
+@import 'settings/vars.css';
 
 
 
 /*  Generic
     ========================================================================= */
 
-@import "generic/fonts.css";
+@import 'generic/fonts.css';
 
 
 
@@ -19,6 +19,6 @@
     Unclassed HTML elements (type selectors)
     ========================================================================= */
 
-@import "elements/toplevel.css";
-@import "elements/typography.css";
-@import "elements/links.css";
+@import 'elements/toplevel.css';
+@import 'elements/typography.css';
+@import 'elements/links.css';
