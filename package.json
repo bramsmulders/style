@@ -4,6 +4,9 @@
   "description": "Shared styles between Bram Smulders 💩",
   "main": "lib/index.css",
   "scripts": {
+    "build:vars": "sass lib/scss/vars.scss lib/settings/vars.css --no-source-map",
+    "build": "npm run build:vars",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +29,8 @@
   "dependencies": {
     "stylelint": "^9.2.0",
     "stylelint-config-supple": "^1.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
   }
 }
