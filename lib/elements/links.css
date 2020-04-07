@@ -6,7 +6,7 @@
     ========================================================================= */
 
 :root {
-  --link--underline-color: var(--color--paradise-pink);
+  --bs-link--underline-color: var(--bs-color--paradise-pink);
 }
 
 
@@ -17,10 +17,10 @@
 a {
   color: currentColor;
   text-decoration-skip: ink;
-  text-decoration-color: var(--link--underline-color);
+  text-decoration-color: var(--bs-link--underline-color);
 }
 
 a:hover,
 a:focus {
-  color: var(--link--underline-color);
+  color: var(--bs-link--underline-color);
 }

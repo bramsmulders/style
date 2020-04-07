@@ -4,8 +4,8 @@
     ========================================================================= */
 
 :root {
-  --bs-family--body: #{$bs-family--body};
-  --bs-family--leader: #{$bs-family--leader};
+  --bs-family--body: #{quote($bs-family--body)};
+  --bs-family--leader: #{quote($bs-family--leader)};
 
   /**
    * Colors
