@@ -2,11 +2,14 @@
     elements.typography
     ========================================================================= */
 
+@use 'sass:string';
+@use '../settings/vars';
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--bs-family--sans-serif);
+  font-family: string.unquote(vars.$bs-family--sans-serif);
 }

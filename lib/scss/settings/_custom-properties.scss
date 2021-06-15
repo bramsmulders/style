@@ -3,11 +3,12 @@
     Maps the sass viarables to custom properties
     ========================================================================= */
 
-@use "./vars";
+@use 'sass:string';
+@use './vars';
 
 :root {
-  --bs-family--serif: #{vars.$bs-family--serif};
-  --bs-family--sans-serif: #{vars.$bs-family--sans-serif};
+  --bs-family--serif: #{string.unquote(vars.$bs-family--serif)};
+  --bs-family--sans-serif: #{string.unquote(vars.$bs-family--sans-serif)};
   --bs-color--light: #{vars.$bs-color--light};
   --bs-color--gray: #{vars.$bs-color--gray};
   --bs-color--dark-gray: #{vars.$bs-color--dark-gray};

@@ -2,7 +2,10 @@
     base.toplevel
     ========================================================================= */
 
+@use 'sass:string';
+@use '../settings/vars';
+
 html {
-  font-family: var(--bs-family--serif);
+  font-family: string.unquote(vars.$bs-family--serif);
   color: var(--bs-color--dark);
 }
