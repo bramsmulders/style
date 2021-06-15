@@ -6,21 +6,19 @@
     ========================================================================= */
 
 :root {
-  --bs-link--underline-color: var(--bs-color--paradise-pink);
+	--bs-link--underline-color: var(--bs-color--paradise-pink);
 }
-
-
 
 /*  Module
     ========================================================================= */
 
 a {
-  color: currentColor;
-  text-decoration-skip: ink;
-  text-decoration-color: var(--bs-link--underline-color);
+	color: currentColor;
+	text-decoration-skip: ink;
+	text-decoration-color: var(--bs-link--underline-color);
 }
 
 a:hover,
 a:focus {
-  color: var(--bs-link--underline-color);
+	color: var(--bs-link--underline-color);
 }
