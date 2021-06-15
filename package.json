@@ -1,6 +1,6 @@
 {
   "name": "bramsmulders-style",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shared styles between Bram Smulders 💩",
   "main": "lib/scss/index.scss",
   "prettier": "@supple-kit/prettier-config",
