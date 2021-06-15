@@ -1,13 +1,8 @@
 /*  =========================================================================
-    elements.typography
+    base.toplevel
     ========================================================================= */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--bs-family--leader);
-  line-height: 1.1;
+html {
+  font-family: var(--bs-family--serif);
+  color: var(--bs-color--dark);
 }

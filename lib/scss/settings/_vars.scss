@@ -3,15 +3,19 @@
     All the available sass variables.
     ========================================================================= */
 
-$bs-family--body: "'Crimson Text', serif" !default;
-$bs-family--leader: "'Ubuntu', sans-serif" !default;
+$bs-family--serif: "'Crimson Text', serif" !default;
+$bs-family--sans-serif: "'Ubuntu', sans-serif" !default;
 
-$bs-color--paradise-pink: #ee4266 !default;
-$bs-color--dark-gunmetal: #161f2b !default;
-$bs-color--eucalyptus: #3ddc97 !default;
-$bs-color--baby-powder: #fcfcfc !default;
-$bs-color--prussian-blue: #12355b !default;
-$bs-color--black: #000000 !default;
-$bs-color--gray-a: #babfc3 !default;
-$bs-color--gray-b: #e9eff3 !default;
-$bs-color--white: #ffffff !default;
+/**
+ * Colors
+ * https://coolors.co/fcfcfc-12355b-ee4266-161f2b-3ddc97
+ */
+$bs-color--light: #fcfcfc !default; // Baby powder
+$bs-color--gray: #ececec !default;
+$bs-color--dark-gray: #7d99b4 !default;
+$bs-color--dark: #12355b !default; // Prussian blue
+$bs-color--brand-primary: #ee4266 !default; // Paradise pink
+$bs-color--brand-secondary: #161f2b !default; // Rich black
+$bs-color--brand-tertiary: #3ddc97 !default; // Medium aquamarine
+
+$bs-font-path: '/fonts/' !default;

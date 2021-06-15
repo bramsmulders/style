@@ -2,23 +2,17 @@
     elements.links
     ========================================================================= */
 
-/*  Variables
-    ========================================================================= */
-
-:root {
-  --bs-link--underline-color: var(--bs-color--paradise-pink);
-}
-
 /*  Module
     ========================================================================= */
 
 a {
+  --underline-color: var(--bs-color--brand-primary);
   color: currentColor;
   text-decoration-skip: ink;
-  text-decoration-color: var(--bs-link--underline-color);
+  text-decoration-color: var(--underline-color);
 }
 
 a:hover,
 a:focus {
-  color: var(--bs-link--underline-color);
+  color: var(--underline-color);
 }

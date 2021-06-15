@@ -1,8 +1,12 @@
 /*  =========================================================================
-    base.toplevel
+    elements.typography
     ========================================================================= */
 
-html {
-  font-family: var(--bs-family--body);
-  color: var(--bs-color--dark-gunmetal);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--bs-family--sans-serif);
 }

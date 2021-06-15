@@ -3,20 +3,16 @@
     Maps the sass viarables to custom properties
     ========================================================================= */
 
-:root {
-  --bs-family--body: #{quote($bs-family--body)};
-  --bs-family--leader: #{quote($bs-family--leader)};
+@use "./vars";
 
-  /**
-   * Colors
-   */
-  --bs-color--paradise-pink: #{$bs-color--paradise-pink};
-  --bs-color--dark-gunmetal: #{$bs-color--dark-gunmetal};
-  --bs-color--eucalyptus: #{$bs-color--eucalyptus};
-  --bs-color--baby-powder: #{$bs-color--baby-powder};
-  --bs-color--prussian-blue: #{$bs-color--prussian-blue};
-  --bs-color--black: #{$bs-color--black};
-  --bs-color--gray-a: #{$bs-color--gray-a};
-  --bs-color--gray-b: #{$bs-color--gray-b};
-  --bs-color--white: #{$bs-color--white};
+:root {
+  --bs-family--serif: #{vars.$bs-family--serif};
+  --bs-family--sans-serif: #{vars.$bs-family--sans-serif};
+  --bs-color--light: #{vars.$bs-color--light};
+  --bs-color--gray: #{vars.$bs-color--gray};
+  --bs-color--dark-gray: #{vars.$bs-color--dark-gray};
+  --bs-color--dark: #{vars.$bs-color--dark}; // Prussian blue
+  --bs-color--brand-primary: #{vars.$bs-color--brand-primary}; // Paradise pink
+  --bs-color--brand-secondary: #{vars.$bs-color--brand-secondary}; // Rich black
+  --bs-color--brand-tertiary: #{vars.$bs-color--brand-tertiary}; // Medium aquamarine
 }

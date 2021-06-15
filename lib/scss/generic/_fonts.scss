@@ -1,0 +1,45 @@
+/*  =========================================================================
+    generic.fonts
+    ========================================================================= */
+
+@use "../settings/vars";
+
+/* stylelint-disable */
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+    url('#{vars.$bs-font-path}ubuntu-latin-700.woff2') format('woff2');
+}
+
+/* crimson-text-regular - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: local('Crimson Text Regular'), local('CrimsonText-Regular'),
+    url('#{vars.$bs-font-path}crimson-text-latin-regular.woff2') format('woff2');
+}
+/* crimson-text-italic - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: optional;
+  src: local('Crimson Text Italic'), local('CrimsonText-Italic'),
+    url('#{vars.$bs-font-path}crimson-text-latin-italic.woff2') format('woff2');
+}
+/* crimson-text-700 - latin */
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: local('Crimson Text Bold'), local('CrimsonText-Bold'),
+    url('#{vars.$bs-font-path}crimson-text-latin-700.woff2') format('woff2');
+}
+/* stylelint-enable */
