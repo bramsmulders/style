@@ -4,19 +4,19 @@
     ========================================================================= */
 
 :root {
-	--bs-family--body: #{quote($bs-family--body)};
-	--bs-family--leader: #{quote($bs-family--leader)};
+  --bs-family--body: #{quote($bs-family--body)};
+  --bs-family--leader: #{quote($bs-family--leader)};
 
-	/**
+  /**
    * Colors
    */
-	--bs-color--paradise-pink: #{$bs-color--paradise-pink};
-	--bs-color--dark-gunmetal: #{$bs-color--dark-gunmetal};
-	--bs-color--eucalyptus: #{$bs-color--eucalyptus};
-	--bs-color--baby-powder: #{$bs-color--baby-powder};
-	--bs-color--prussian-blue: #{$bs-color--prussian-blue};
-	--bs-color--black: #{$bs-color--black};
-	--bs-color--gray-a: #{$bs-color--gray-a};
-	--bs-color--gray-b: #{$bs-color--gray-b};
-	--bs-color--white: #{$bs-color--white};
+  --bs-color--paradise-pink: #{$bs-color--paradise-pink};
+  --bs-color--dark-gunmetal: #{$bs-color--dark-gunmetal};
+  --bs-color--eucalyptus: #{$bs-color--eucalyptus};
+  --bs-color--baby-powder: #{$bs-color--baby-powder};
+  --bs-color--prussian-blue: #{$bs-color--prussian-blue};
+  --bs-color--black: #{$bs-color--black};
+  --bs-color--gray-a: #{$bs-color--gray-a};
+  --bs-color--gray-b: #{$bs-color--gray-b};
+  --bs-color--white: #{$bs-color--white};
 }

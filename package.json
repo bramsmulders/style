@@ -1,39 +1,39 @@
 {
-	"name": "bramsmulders-style",
-	"version": "1.0.1",
-	"description": "Shared styles between Bram Smulders 💩",
-	"main": "lib/index.css",
-	"prettier": "@supple-kit/prettier-config",
-	"scripts": {
-		"build:vars": "sass lib/scss/vars.scss lib/settings/vars.css --no-source-map",
-		"build": "npm run build:vars",
-		"prepare": "npm run build",
-		"prepublishOnly": "npm run build",
-		"prettier": "npx prettier --write .",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bramsmulders/style.git"
-	},
-	"keywords": [
-		"Styles",
-		"bram",
-		"smulders",
-		"shit",
-		"💩"
-	],
-	"author": "Bram Smulders <bram@bramsmulders.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/bramsmulders/style/issues"
-	},
-	"homepage": "https://github.com/bramsmulders/style#readme",
-	"dependencies": {},
-	"devDependencies": {
-		"@supple-kit/prettier-config": "^1.0.0",
-		"@supple-kit/stylelint-config-supple": "^3.0.4",
-		"sass": "^1.35.0",
-		"stylelint": "^13.13.1"
-	}
+  "name": "bramsmulders-style",
+  "version": "1.0.1",
+  "description": "Shared styles between Bram Smulders 💩",
+  "main": "lib/index.css",
+  "prettier": "@supple-kit/prettier-config",
+  "scripts": {
+    "build:vars": "sass lib/scss/vars.scss lib/settings/vars.css --no-source-map",
+    "build": "npm run build:vars",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "prettier": "npx prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramsmulders/style.git"
+  },
+  "keywords": [
+    "Styles",
+    "bram",
+    "smulders",
+    "shit",
+    "💩"
+  ],
+  "author": "Bram Smulders <bram@bramsmulders.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bramsmulders/style/issues"
+  },
+  "homepage": "https://github.com/bramsmulders/style#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@supple-kit/prettier-config": "^1.0.1",
+    "@supple-kit/stylelint-config-supple": "^3.0.4",
+    "sass": "^1.35.0",
+    "stylelint": "^13.13.1"
+  }
 }
